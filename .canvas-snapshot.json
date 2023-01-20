@@ -4,14 +4,14 @@
     "title": "Object Quiz 1",
     "html_url": "https://learning.flatironschool.com/courses/6676/quizzes/43624",
     "mobile_url": "https://learning.flatironschool.com/courses/6676/quizzes/43624?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-quiz-object-1\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-quiz-object-1/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-quiz-object-1\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-quiz-object-1/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
     "shuffle_answers": true,
     "show_correct_answers": true,
     "scoring_policy": "keep_highest",
-    "allowed_attempts": -1,
+    "allowed_attempts": 3,
     "one_question_at_a_time": true,
     "question_count": 7,
     "points_possible": 7.0,
@@ -70,8 +70,8 @@
     "one_time_results": false,
     "only_visible_to_overrides": false,
     "assignment_group_id": 20001,
-    "show_correct_answers_last_attempt": false,
-    "version_number": 4,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 5,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -87,31 +87,182 @@
       "quiz_group_id": null,
       "assessment_question_id": 508090,
       "position": null,
-      "question_name": "Java Visualizer",
-      "question_type": "short_answer_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code> <span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">WeatherForecast</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">low</span> <span class=\"o\">=</span> <span class=\"mi\">50</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">high</span> <span class=\"o\">=</span> <span class=\"mi\">70</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"o\">???;</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is the correct assignment statement (i.e. replace ???)\nto produce the object state shown?  HINT: Use dot notation to access\nthe <code>high</code> temperature field through an object reference.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q06.png\" alt=\"q6 object state\"></p>\n\n<p>[answer1] = [answer2]</p>",
+      "question_name": "Terminology",
+      "question_type": "matching_question",
+      "question_text": "<p>Match the term with the correct description.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/class\">Java Class - Encapsulating Object State And Behavior</a></li></ul><p></p>",
       "answers": [
-
+        {
+          "id": 3184,
+          "text": "Class",
+          "left": "Class",
+          "right": "Defines a new data type (state and behavior).",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 9587
+        },
+        {
+          "id": 7123,
+          "text": "Object",
+          "left": "Object",
+          "right": "An instance of a class.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 5434
+        },
+        {
+          "id": 3667,
+          "text": "Field",
+          "left": "Field",
+          "right": "A property of an object or the class itself.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 5489
+        },
+        {
+          "id": 5874,
+          "text": "Constructor",
+          "left": "Constructor",
+          "right": "A special method used to initialize the state of new objects by assigning values to the fields.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 6741
+        },
+        {
+          "id": 87,
+          "text": "Method",
+          "left": "Method",
+          "right": "Implements the behavior of the class or its objects.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 3070
+        }
       ],
       "variables": null,
       "formulas": null,
       "answer_tolerance": null,
       "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
+      "matches": [
+        {
+          "text": "Defines a new data type (state and behavior).",
+          "match_id": 9587
+        },
+        {
+          "text": "An instance of a class.",
+          "match_id": 5434
+        },
+        {
+          "text": "A property of an object or the class itself.",
+          "match_id": 5489
+        },
+        {
+          "text": "A special method used to initialize the state of new objects by assigning values to the fields.",
+          "match_id": 6741
+        },
+        {
+          "text": "Implements the behavior of the class or its objects.",
+          "match_id": 3070
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 296075,
       "quiz_id": 43624,
       "quiz_group_id": null,
       "assessment_question_id": 508091,
+      "position": null,
+      "question_name": "Default Values",
+      "question_type": "matching_question",
+      "question_text": "<p>Match the data type with the default value.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Creating A Class Instance</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 5787,
+          "text": "int",
+          "left": "int",
+          "right": "0",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 2453
+        },
+        {
+          "id": 1446,
+          "text": "double",
+          "left": "double",
+          "right": "0.0",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 2690
+        },
+        {
+          "id": 1023,
+          "text": "boolean",
+          "left": "boolean",
+          "right": "false",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 9600
+        },
+        {
+          "id": 7376,
+          "text": "String",
+          "left": "String",
+          "right": "null",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 7722
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "0",
+          "match_id": 2453
+        },
+        {
+          "text": "0.0",
+          "match_id": 2690
+        },
+        {
+          "text": "false",
+          "match_id": 9600
+        },
+        {
+          "text": "null",
+          "match_id": 7722
+        },
+        {
+          "text": "boolean",
+          "match_id": 2053
+        },
+        {
+          "text": "true",
+          "match_id": 6673
+        }
+      ],
+      "matching_answer_incorrect_matches": "boolean\ntrue"
+    },
+    {
+      "id": 296076,
+      "quiz_id": 43624,
+      "quiz_group_id": null,
+      "assessment_question_id": 508092,
       "position": null,
       "question_name": "Creating a class instance",
       "question_type": "fill_in_multiple_blanks_question",
@@ -125,7 +276,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Creating A Class Instance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5706,
+          "id": 2581,
           "text": "new Person()",
           "comments": "",
           "comments_html": "",
@@ -141,10 +292,10 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 296076,
+      "id": 296077,
       "quiz_id": 43624,
       "quiz_group_id": null,
-      "assessment_question_id": 508092,
+      "assessment_question_id": 508093,
       "position": null,
       "question_name": "Default Object State",
       "question_type": "fill_in_multiple_blanks_question",
@@ -158,7 +309,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3344,
+          "id": 7517,
           "text": "null",
           "comments": "",
           "comments_html": "",
@@ -166,7 +317,7 @@
           "blank_id": "answer1"
         },
         {
-          "id": 8971,
+          "id": 7962,
           "text": "0",
           "comments": "",
           "comments_html": "",
@@ -174,7 +325,7 @@
           "blank_id": "answer2"
         },
         {
-          "id": 4519,
+          "id": 1353,
           "text": "false",
           "comments": "",
           "comments_html": "",
@@ -188,97 +339,6 @@
       "formula_decimal_places": null,
       "matches": null,
       "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 296077,
-      "quiz_id": 43624,
-      "quiz_group_id": null,
-      "assessment_question_id": 508093,
-      "position": null,
-      "question_name": "Terminology",
-      "question_type": "matching_question",
-      "question_text": "<p>Match the term with the correct description.</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/class\">Java Class - Encapsulating Object State And Behavior</a></li></ul><p></p>",
-      "answers": [
-        {
-          "id": 4335,
-          "text": "Class",
-          "left": "Class",
-          "right": "Defines a new data type (state and behavior).",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 5700
-        },
-        {
-          "id": 7133,
-          "text": "Object",
-          "left": "Object",
-          "right": "An instance of a class.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 8575
-        },
-        {
-          "id": 6635,
-          "text": "Field",
-          "left": "Field",
-          "right": "A property of an object or the class itself.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 5476
-        },
-        {
-          "id": 2584,
-          "text": "Constructor",
-          "left": "Constructor",
-          "right": "A special method used to initialize the state of new objects by assigning values to the fields.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 9310
-        },
-        {
-          "id": 4163,
-          "text": "Method",
-          "left": "Method",
-          "right": "Implements the behavior of the class or its objects.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 5985
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": [
-        {
-          "text": "Defines a new data type (state and behavior).",
-          "match_id": 5700
-        },
-        {
-          "text": "An instance of a class.",
-          "match_id": 8575
-        },
-        {
-          "text": "A property of an object or the class itself.",
-          "match_id": 5476
-        },
-        {
-          "text": "A special method used to initialize the state of new objects by assigning values to the fields.",
-          "match_id": 9310
-        },
-        {
-          "text": "Implements the behavior of the class or its objects.",
-          "match_id": 5985
-        }
-      ],
-      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 296078,
@@ -298,7 +358,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4705,
+          "id": "4705",
           "text": "5*4=20",
           "comments": "",
           "comments_html": "",
@@ -330,7 +390,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Objects - Creating A Class Instance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2558,
+          "id": "2558",
           "text": "100",
           "comments": "",
           "comments_html": "",
@@ -338,7 +398,7 @@
           "blank_id": "answer1"
         },
         {
-          "id": 7362,
+          "id": "7362",
           "text": "88",
           "comments": "",
           "comments_html": "",
@@ -359,85 +419,40 @@
       "quiz_group_id": null,
       "assessment_question_id": 508096,
       "position": null,
-      "question_name": "Default Values",
-      "question_type": "matching_question",
-      "question_text": "<p>Match the data type with the default value.</p>",
+      "question_name": "Java Visualizer",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code> <span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">WeatherForecast</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">low</span> <span class=\"o\">=</span> <span class=\"mi\">50</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">high</span> <span class=\"o\">=</span> <span class=\"mi\">70</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"o\">???;</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is the correct assignment statement (i.e. replace ???)\nto produce the object state shown?  HINT: Use dot notation to access\nthe <code>high</code> temperature field through an object reference.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q06.png\" alt=\"q6 object state\"></p>\n\n<p>[answer1] = [answer2]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Creating A Class Instance</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9478,
-          "text": "int",
-          "left": "int",
-          "right": "0",
+          "id": 1764,
+          "text": "forecast2.high",
           "comments": "",
           "comments_html": "",
-          "match_id": 342
+          "weight": 100.0,
+          "blank_id": "answer1"
         },
         {
-          "id": 375,
-          "text": "double",
-          "left": "double",
-          "right": "0.0",
+          "id": 3587,
+          "text": "79",
           "comments": "",
           "comments_html": "",
-          "match_id": 1486
-        },
-        {
-          "id": 1623,
-          "text": "boolean",
-          "left": "boolean",
-          "right": "false",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 8530
-        },
-        {
-          "id": 6730,
-          "text": "String",
-          "left": "String",
-          "right": "null",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 2162
+          "weight": 100.0,
+          "blank_id": "answer2"
         }
       ],
       "variables": null,
       "formulas": null,
       "answer_tolerance": null,
       "formula_decimal_places": null,
-      "matches": [
-        {
-          "text": "0",
-          "match_id": 342
-        },
-        {
-          "text": "0.0",
-          "match_id": 1486
-        },
-        {
-          "text": "false",
-          "match_id": 8530
-        },
-        {
-          "text": "null",
-          "match_id": 2162
-        },
-        {
-          "text": "boolean",
-          "match_id": 3637
-        },
-        {
-          "text": "true",
-          "match_id": 9295
-        }
-      ],
-      "matching_answer_incorrect_matches": "boolean\ntrue"
+      "matches": null,
+      "matching_answer_incorrect_matches": null
     }
   ]
 }

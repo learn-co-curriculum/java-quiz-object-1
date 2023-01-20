@@ -105,7 +105,7 @@
           "right": "Defines a new data type (state and behavior).",
           "comments": "",
           "comments_html": "",
-          "match_id": 301
+          "match_id": 9046
         },
         {
           "id": "7123",
@@ -114,7 +114,7 @@
           "right": "An instance of a class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 7971
+          "match_id": 4023
         },
         {
           "id": "3667",
@@ -123,7 +123,7 @@
           "right": "A property of an object or a class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 9664
+          "match_id": 6619
         },
         {
           "id": "5874",
@@ -132,7 +132,7 @@
           "right": "Used to initialize the state of a new object by assigning values to the fields.",
           "comments": "",
           "comments_html": "",
-          "match_id": 5463
+          "match_id": 5324
         },
         {
           "id": "87",
@@ -141,7 +141,7 @@
           "right": "Implements the behavior of the class or its objects by accessing and updating state.",
           "comments": "",
           "comments_html": "",
-          "match_id": 1340
+          "match_id": 6879
         }
       ],
       "variables": null,
@@ -151,23 +151,23 @@
       "matches": [
         {
           "text": "Defines a new data type (state and behavior).",
-          "match_id": 301
+          "match_id": 9046
         },
         {
           "text": "An instance of a class.",
-          "match_id": 7971
+          "match_id": 4023
         },
         {
           "text": "A property of an object or a class.",
-          "match_id": 9664
+          "match_id": 6619
         },
         {
           "text": "Used to initialize the state of a new object by assigning values to the fields.",
-          "match_id": 5463
+          "match_id": 5324
         },
         {
           "text": "Implements the behavior of the class or its objects by accessing and updating state.",
-          "match_id": 1340
+          "match_id": 6879
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -196,7 +196,7 @@
           "right": "0",
           "comments": "",
           "comments_html": "",
-          "match_id": 4837
+          "match_id": 3280
         },
         {
           "id": "1446",
@@ -205,7 +205,7 @@
           "right": "0.0",
           "comments": "",
           "comments_html": "",
-          "match_id": 3494
+          "match_id": 2090
         },
         {
           "id": "1023",
@@ -214,7 +214,7 @@
           "right": "false",
           "comments": "",
           "comments_html": "",
-          "match_id": 7276
+          "match_id": 9299
         },
         {
           "id": "7376",
@@ -223,7 +223,7 @@
           "right": "null",
           "comments": "",
           "comments_html": "",
-          "match_id": 9716
+          "match_id": 8605
         }
       ],
       "variables": null,
@@ -233,30 +233,38 @@
       "matches": [
         {
           "text": "0",
-          "match_id": 4837
+          "match_id": 3280
         },
         {
           "text": "0.0",
-          "match_id": 3494
+          "match_id": 2090
         },
         {
           "text": "false",
-          "match_id": 7276
+          "match_id": 9299
         },
         {
           "text": "null",
-          "match_id": 9716
-        },
-        {
-          "text": "boolean",
-          "match_id": 5476
+          "match_id": 8605
         },
         {
           "text": "true",
-          "match_id": 8410
+          "match_id": 5629
+        },
+        {
+          "text": "\"null\"",
+          "match_id": 6827
+        },
+        {
+          "text": "1",
+          "match_id": 496
+        },
+        {
+          "text": "\"I don't know\"",
+          "match_id": 5688
         }
       ],
-      "matching_answer_incorrect_matches": "boolean\ntrue"
+      "matching_answer_incorrect_matches": "true\n\"null\"\n1\n\"I don't know\""
     },
     {
       "id": 296076,
@@ -278,14 +286,6 @@
         {
           "id": "2581",
           "text": "new Person()",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer1"
-        },
-        {
-          "id": 3655,
-          "text": "new Person( )",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
@@ -429,7 +429,7 @@
       "position": null,
       "question_name": "Dot Notation",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code> <span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">WeatherForecast</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">low</span> <span class=\"o\">=</span> <span class=\"mi\">50</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">high</span> <span class=\"o\">=</span> <span class=\"mi\">70</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"o\">???;</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is the correct assignment statement\nto assign the value <code>79</code> as shown in the image below?</p>\n\n<p>HINT: Use dot notation to access\nthe <code>high</code> temperature field through an object reference.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q06.png\" alt=\"q6 object state\"></p>\n\n<p>[answer1] = [answer2]</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code> <span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">WeatherForecast</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">low</span> <span class=\"o\">=</span> <span class=\"mi\">50</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">high</span> <span class=\"o\">=</span> <span class=\"mi\">70</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"mi\">79</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q06.png\" alt=\"q06 object state\"></p>\n\n<p>Assign the value <code>79</code> as shown in the image (hint, use dot notation).</p>\n\n<p>[answer1] = 79</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -445,14 +445,6 @@
           "comments_html": "",
           "weight": 100.0,
           "blank_id": "answer1"
-        },
-        {
-          "id": "3587",
-          "text": "79",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer2"
         }
       ],
       "variables": null,

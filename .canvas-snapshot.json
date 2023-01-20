@@ -99,49 +99,49 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/class\">Java Class - Encapsulating Object State And Behavior</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3184,
+          "id": "3184",
           "text": "Class",
           "left": "Class",
           "right": "Defines a new data type (state and behavior).",
           "comments": "",
           "comments_html": "",
-          "match_id": 9587
+          "match_id": 301
         },
         {
-          "id": 7123,
+          "id": "7123",
           "text": "Object",
           "left": "Object",
           "right": "An instance of a class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 5434
+          "match_id": 7971
         },
         {
-          "id": 3667,
+          "id": "3667",
           "text": "Field",
           "left": "Field",
-          "right": "A property of an object or the class itself.",
+          "right": "A property of an object or a class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 5489
+          "match_id": 9664
         },
         {
-          "id": 5874,
+          "id": "5874",
           "text": "Constructor",
           "left": "Constructor",
-          "right": "A special method used to initialize the state of new objects by assigning values to the fields.",
+          "right": "Used to initialize the state of a new object by assigning values to the fields.",
           "comments": "",
           "comments_html": "",
-          "match_id": 6741
+          "match_id": 5463
         },
         {
-          "id": 87,
+          "id": "87",
           "text": "Method",
           "left": "Method",
-          "right": "Implements the behavior of the class or its objects.",
+          "right": "Implements the behavior of the class or its objects by accessing and updating state.",
           "comments": "",
           "comments_html": "",
-          "match_id": 3070
+          "match_id": 1340
         }
       ],
       "variables": null,
@@ -151,23 +151,23 @@
       "matches": [
         {
           "text": "Defines a new data type (state and behavior).",
-          "match_id": 9587
+          "match_id": 301
         },
         {
           "text": "An instance of a class.",
-          "match_id": 5434
+          "match_id": 7971
         },
         {
-          "text": "A property of an object or the class itself.",
-          "match_id": 5489
+          "text": "A property of an object or a class.",
+          "match_id": 9664
         },
         {
-          "text": "A special method used to initialize the state of new objects by assigning values to the fields.",
-          "match_id": 6741
+          "text": "Used to initialize the state of a new object by assigning values to the fields.",
+          "match_id": 5463
         },
         {
-          "text": "Implements the behavior of the class or its objects.",
-          "match_id": 3070
+          "text": "Implements the behavior of the class or its objects by accessing and updating state.",
+          "match_id": 1340
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -190,40 +190,40 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Creating A Class Instance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5787,
+          "id": "5787",
           "text": "int",
           "left": "int",
           "right": "0",
           "comments": "",
           "comments_html": "",
-          "match_id": 2453
+          "match_id": 4837
         },
         {
-          "id": 1446,
+          "id": "1446",
           "text": "double",
           "left": "double",
           "right": "0.0",
           "comments": "",
           "comments_html": "",
-          "match_id": 2690
+          "match_id": 3494
         },
         {
-          "id": 1023,
+          "id": "1023",
           "text": "boolean",
           "left": "boolean",
           "right": "false",
           "comments": "",
           "comments_html": "",
-          "match_id": 9600
+          "match_id": 7276
         },
         {
-          "id": 7376,
+          "id": "7376",
           "text": "String",
           "left": "String",
           "right": "null",
           "comments": "",
           "comments_html": "",
-          "match_id": 7722
+          "match_id": 9716
         }
       ],
       "variables": null,
@@ -233,27 +233,27 @@
       "matches": [
         {
           "text": "0",
-          "match_id": 2453
+          "match_id": 4837
         },
         {
           "text": "0.0",
-          "match_id": 2690
+          "match_id": 3494
         },
         {
           "text": "false",
-          "match_id": 9600
+          "match_id": 7276
         },
         {
           "text": "null",
-          "match_id": 7722
+          "match_id": 9716
         },
         {
           "text": "boolean",
-          "match_id": 2053
+          "match_id": 5476
         },
         {
           "text": "true",
-          "match_id": 6673
+          "match_id": 8410
         }
       ],
       "matching_answer_incorrect_matches": "boolean\ntrue"
@@ -276,8 +276,16 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Creating A Class Instance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2581,
+          "id": "2581",
           "text": "new Person()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "answer1"
+        },
+        {
+          "id": 3655,
+          "text": "new Person( )",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
@@ -299,7 +307,7 @@
       "position": null,
       "question_name": "Default Object State",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">HistoryQuestion</span> <span class=\"o\">{</span>\n\n  <span class=\"nc\">String</span> <span class=\"n\">prompt</span><span class=\"o\">;</span>\n  <span class=\"kt\">int</span> <span class=\"n\">year</span><span class=\"o\">;</span>\n  <span class=\"kt\">boolean</span> <span class=\"n\">provideHint</span><span class=\"o\">;</span>\n\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n    <span class=\"nc\">HistoryQuestion</span> <span class=\"n\">question</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HistoryQuestion</span><span class=\"o\">();</span>\n\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"prompt:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">prompt</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"year:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">year</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"provide hint:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">provideHint</span><span class=\"o\">);</span>\n  <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is printed when the main method executes?</p>\n\n<p>prompt:[answer1]<br>\nyear:[answer2]<br>\nprovide hint:[answer3]</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">HistoryQuestion</span> <span class=\"o\">{</span>\n\n  <span class=\"nc\">String</span> <span class=\"n\">prompt</span><span class=\"o\">;</span>\n  <span class=\"kt\">int</span> <span class=\"n\">year</span><span class=\"o\">;</span>\n  <span class=\"kt\">boolean</span> <span class=\"n\">provideHint</span><span class=\"o\">;</span>\n\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n    <span class=\"nc\">HistoryQuestion</span> <span class=\"n\">question</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HistoryQuestion</span><span class=\"o\">();</span>\n\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"prompt:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">prompt</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"year:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">year</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"provide hint:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">provideHint</span><span class=\"o\">);</span>\n  <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is printed when the <code>main</code> method executes?</p>\n\n<p>prompt:[answer1]<br>\nyear:[answer2]<br>\nprovide hint:[answer3]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -309,7 +317,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7517,
+          "id": "7517",
           "text": "null",
           "comments": "",
           "comments_html": "",
@@ -317,7 +325,7 @@
           "blank_id": "answer1"
         },
         {
-          "id": 7962,
+          "id": "7962",
           "text": "0",
           "comments": "",
           "comments_html": "",
@@ -325,7 +333,7 @@
           "blank_id": "answer2"
         },
         {
-          "id": 1353,
+          "id": "1353",
           "text": "false",
           "comments": "",
           "comments_html": "",
@@ -348,7 +356,7 @@
       "position": null,
       "question_name": "Assigning Object State",
       "question_type": "short_answer_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">MathQuestion</span> <span class=\"o\">{</span>\n\n    <span class=\"nc\">String</span> <span class=\"n\">equation</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">value</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">MathQuestion</span> <span class=\"n\">q1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">MathQuestion</span><span class=\"o\">();</span>\n        <span class=\"n\">q1</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">=</span> <span class=\"s\">\"2+2\"</span><span class=\"o\">;</span>\n        <span class=\"n\">q1</span><span class=\"o\">.</span><span class=\"na\">value</span> <span class=\"o\">=</span> <span class=\"mi\">4</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">MathQuestion</span> <span class=\"n\">q2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">MathQuestion</span><span class=\"o\">();</span>\n        <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">=</span> <span class=\"s\">\"5*4\"</span><span class=\"o\">;</span>\n        <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">value</span> <span class=\"o\">=</span> <span class=\"mi\">20</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">+</span> <span class=\"s\">\"=\"</span> <span class=\"o\">+</span> <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">value</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the main method executes?</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">MathQuestion</span> <span class=\"o\">{</span>\n\n    <span class=\"nc\">String</span> <span class=\"n\">equation</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">value</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">MathQuestion</span> <span class=\"n\">q1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">MathQuestion</span><span class=\"o\">();</span>\n        <span class=\"n\">q1</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">=</span> <span class=\"s\">\"2+2\"</span><span class=\"o\">;</span>\n        <span class=\"n\">q1</span><span class=\"o\">.</span><span class=\"na\">value</span> <span class=\"o\">=</span> <span class=\"mi\">4</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">MathQuestion</span> <span class=\"n\">q2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">MathQuestion</span><span class=\"o\">();</span>\n        <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">=</span> <span class=\"s\">\"5*4\"</span><span class=\"o\">;</span>\n        <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">value</span> <span class=\"o\">=</span> <span class=\"mi\">20</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">+</span> <span class=\"s\">\"=\"</span> <span class=\"o\">+</span> <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">value</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the <code>main</code> method executes?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -380,7 +388,7 @@
       "position": null,
       "question_name": "Field Initializers",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Homework</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">score</span> <span class=\"o\">=</span> <span class=\"mi\">100</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span> <span class=\"o\">=</span> <span class=\"mi\">88</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"h1:\"</span> <span class=\"o\">+</span> <span class=\"n\">h1</span><span class=\"o\">.</span><span class=\"na\">score</span><span class=\"o\">);</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"h2:\"</span> <span class=\"o\">+</span> <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the main method executes?</p>\n\n<p>h1:[answer1]<br>\nh2:[answer2]</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Homework</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">score</span> <span class=\"o\">=</span> <span class=\"mi\">100</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span> <span class=\"o\">=</span> <span class=\"mi\">88</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"h1:\"</span> <span class=\"o\">+</span> <span class=\"n\">h1</span><span class=\"o\">.</span><span class=\"na\">score</span><span class=\"o\">);</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"h2:\"</span> <span class=\"o\">+</span> <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the <code>main</code> method executes?</p>\n\n<p>h1:[answer1]<br>\nh2:[answer2]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -419,9 +427,9 @@
       "quiz_group_id": null,
       "assessment_question_id": 508096,
       "position": null,
-      "question_name": "Java Visualizer",
+      "question_name": "Dot Notation",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code> <span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">WeatherForecast</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">low</span> <span class=\"o\">=</span> <span class=\"mi\">50</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">high</span> <span class=\"o\">=</span> <span class=\"mi\">70</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"o\">???;</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is the correct assignment statement (i.e. replace ???)\nto produce the object state shown?  HINT: Use dot notation to access\nthe <code>high</code> temperature field through an object reference.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q06.png\" alt=\"q6 object state\"></p>\n\n<p>[answer1] = [answer2]</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code> <span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">WeatherForecast</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">low</span> <span class=\"o\">=</span> <span class=\"mi\">50</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">high</span> <span class=\"o\">=</span> <span class=\"mi\">70</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"o\">???;</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is the correct assignment statement\nto assign the value <code>79</code> as shown in the image below?</p>\n\n<p>HINT: Use dot notation to access\nthe <code>high</code> temperature field through an object reference.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q06.png\" alt=\"q6 object state\"></p>\n\n<p>[answer1] = [answer2]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -431,7 +439,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1764,
+          "id": "1764",
           "text": "forecast2.high",
           "comments": "",
           "comments_html": "",
@@ -439,7 +447,7 @@
           "blank_id": "answer1"
         },
         {
-          "id": 3587,
+          "id": "3587",
           "text": "79",
           "comments": "",
           "comments_html": "",

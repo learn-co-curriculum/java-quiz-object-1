@@ -4,7 +4,7 @@
     "title": "Object Quiz 1",
     "html_url": "https://learning.flatironschool.com/courses/6676/quizzes/43624",
     "mobile_url": "https://learning.flatironschool.com/courses/6676/quizzes/43624?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-quiz-object-1\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-quiz-object-1/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-quiz-object-1\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-quiz-object-1/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 20001,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 4,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -87,33 +87,18 @@
       "quiz_group_id": null,
       "assessment_question_id": 508090,
       "position": null,
-      "question_name": "Fill in Multiple Blanks Question",
-      "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<p>In order for Active Record to work, it is necessary to follow the naming\nconventions it is expecting. Specifically, the name of the class must be\n[answer1] and the name of the table must be [answer2].</p>",
+      "question_name": "Java Visualizer",
+      "question_type": "short_answer_question",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code> <span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">WeatherForecast</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">low</span> <span class=\"o\">=</span> <span class=\"mi\">50</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">high</span> <span class=\"o\">=</span> <span class=\"mi\">70</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n        <span class=\"nc\">WeatherForecast</span> <span class=\"n\">forecast2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">WeatherForecast</span><span class=\"o\">();</span>\n\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"o\">???;</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is the correct assignment statement (i.e. replace ???)\nto produce the object state shown?  HINT: Use dot notation to access\nthe <code>high</code> temperature field through an object reference.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q06.png\" alt=\"q6 object state\"></p>\n\n<p>[answer1] = [answer2]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
       "answers": [
-        {
-          "id": "8529",
-          "text": "singular",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer1"
-        },
-        {
-          "id": "8537",
-          "text": "plural",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer2"
-        }
+
       ],
       "variables": null,
       "formulas": null,
@@ -128,56 +113,24 @@
       "quiz_group_id": null,
       "assessment_question_id": 508091,
       "position": null,
-      "question_name": "Multiple Answers Question",
-      "question_type": "multiple_answers_question",
-      "question_text": "<p>We have a variable <code>lunch_menu</code>, set equal to an array of lunch menu items:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"pizza\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sandwich\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sushi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"soup\"</span><span class=\"p\">,</span> <span class=\"s2\">\"salad\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Since you're super hungry and super excited about lunch, use the <code>.each</code> method\nto enumerate over the array and output a string to the terminal with each lunch\nmenu item with an <code>\"!\"</code> at the end.</p>\n\n<p>Which piece of code will achieve the desired result? Select all that apply:</p>",
+      "question_name": "Creating a class instance",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Person</span> <span class=\"o\">{</span>\n\n  <span class=\"kt\">int</span> <span class=\"n\">age</span><span class=\"o\">;</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q3.png\" alt=\"q3 visualizer image\"></p>\n\n<p>What is the code to create an instance of the <code>Person</code> class?</p>\n\n<p>Person somebody  = [answer1] ;</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Creating A Class Instance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "220",
-          "text": "",
+          "id": 5706,
+          "text": "new Person()",
           "comments": "",
-          "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
+          "comments_html": "",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"n\">lunch_item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
-        },
-        {
-          "id": "108",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is an array, and we\ncan't us the <code>+</code> method to add a string to the array. How can we iterate over\neach element?</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">puts</span> <span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
-        },
-        {
-          "id": "6485",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
-          "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
-        },
-        {
-          "id": "204",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Using <code>each</code> lets us access each element of the array in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>puts</code>.</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
-        },
-        {
-          "id": "6131",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "blank_id": "answer1"
         }
       ],
       "variables": null,
@@ -193,30 +146,40 @@
       "quiz_group_id": null,
       "assessment_question_id": 508092,
       "position": null,
-      "question_name": "True/False Question",
-      "question_type": "true_false_question",
-      "question_text": "<p>When we run <code>git add .</code>, <strong>all</strong> files that have been created or modified since\nthe last commit are staged and will be included in the next commit.&nbsp;</p>",
+      "question_name": "Default Object State",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">HistoryQuestion</span> <span class=\"o\">{</span>\n\n  <span class=\"nc\">String</span> <span class=\"n\">prompt</span><span class=\"o\">;</span>\n  <span class=\"kt\">int</span> <span class=\"n\">year</span><span class=\"o\">;</span>\n  <span class=\"kt\">boolean</span> <span class=\"n\">provideHint</span><span class=\"o\">;</span>\n\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n    <span class=\"nc\">HistoryQuestion</span> <span class=\"n\">question</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HistoryQuestion</span><span class=\"o\">();</span>\n\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"prompt:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">prompt</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"year:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">year</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"provide hint:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">provideHint</span><span class=\"o\">);</span>\n  <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is printed when the main method executes?</p>\n\n<p>prompt:[answer1]<br>\nyear:[answer2]<br>\nprovide hint:[answer3]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
       "answers": [
         {
-          "comments": "",
-          "comments_html": "<p>Not quite. Be sure to review the <code>.gitignore</code> source for this question. You'll\nget it next time!</p>",
-          "text": "True",
-          "weight": 0,
-          "id": 1207
-        },
-        {
+          "id": 3344,
+          "text": "null",
           "comments": "",
           "comments_html": "",
-          "text": "False",
-          "weight": 100,
-          "id": 9942
+          "weight": 100.0,
+          "blank_id": "answer1"
+        },
+        {
+          "id": 8971,
+          "text": "0",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "answer2"
+        },
+        {
+          "id": 4519,
+          "text": "false",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "answer3"
         }
       ],
       "variables": null,
@@ -232,27 +195,111 @@
       "quiz_group_id": null,
       "assessment_question_id": 508093,
       "position": null,
-      "question_name": "Short Answer Question",
-      "question_type": "short_answer_question",
-      "question_text": "<p>A/an _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.</p>",
+      "question_name": "Terminology",
+      "question_type": "matching_question",
+      "question_text": "<p>Match the term with the correct description.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/class\">Java Class - Encapsulating Object State And Behavior</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "8012",
-          "text": "algorithm",
+          "id": 4335,
+          "text": "Class",
+          "left": "Class",
+          "right": "Defines a new data type (state and behavior).",
           "comments": "",
           "comments_html": "",
-          "weight": 100
+          "match_id": 5700
         },
         {
-          "id": "7551",
-          "text": "Algorithm",
+          "id": 7133,
+          "text": "Object",
+          "left": "Object",
+          "right": "An instance of a class.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 8575
+        },
+        {
+          "id": 6635,
+          "text": "Field",
+          "left": "Field",
+          "right": "A property of an object or the class itself.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 5476
+        },
+        {
+          "id": 2584,
+          "text": "Constructor",
+          "left": "Constructor",
+          "right": "A special method used to initialize the state of new objects by assigning values to the fields.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 9310
+        },
+        {
+          "id": 4163,
+          "text": "Method",
+          "left": "Method",
+          "right": "Implements the behavior of the class or its objects.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 5985
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "Defines a new data type (state and behavior).",
+          "match_id": 5700
+        },
+        {
+          "text": "An instance of a class.",
+          "match_id": 8575
+        },
+        {
+          "text": "A property of an object or the class itself.",
+          "match_id": 5476
+        },
+        {
+          "text": "A special method used to initialize the state of new objects by assigning values to the fields.",
+          "match_id": 9310
+        },
+        {
+          "text": "Implements the behavior of the class or its objects.",
+          "match_id": 5985
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
+    },
+    {
+      "id": 296078,
+      "quiz_id": 43624,
+      "quiz_group_id": null,
+      "assessment_question_id": 508094,
+      "position": null,
+      "question_name": "Assigning Object State",
+      "question_type": "short_answer_question",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">MathQuestion</span> <span class=\"o\">{</span>\n\n    <span class=\"nc\">String</span> <span class=\"n\">equation</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">value</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">MathQuestion</span> <span class=\"n\">q1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">MathQuestion</span><span class=\"o\">();</span>\n        <span class=\"n\">q1</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">=</span> <span class=\"s\">\"2+2\"</span><span class=\"o\">;</span>\n        <span class=\"n\">q1</span><span class=\"o\">.</span><span class=\"na\">value</span> <span class=\"o\">=</span> <span class=\"mi\">4</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">MathQuestion</span> <span class=\"n\">q2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">MathQuestion</span><span class=\"o\">();</span>\n        <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">=</span> <span class=\"s\">\"5*4\"</span><span class=\"o\">;</span>\n        <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">value</span> <span class=\"o\">=</span> <span class=\"mi\">20</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">equation</span> <span class=\"o\">+</span> <span class=\"s\">\"=\"</span> <span class=\"o\">+</span> <span class=\"n\">q2</span><span class=\"o\">.</span><span class=\"na\">value</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the main method executes?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/accessing-fields-of-a-class-via-dot-notation\">Accessing Object State</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 4705,
+          "text": "5*4=20",
           "comments": "",
           "comments_html": "",
           "weight": 100
@@ -266,125 +313,37 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 296078,
-      "quiz_id": 43624,
-      "quiz_group_id": null,
-      "assessment_question_id": 508094,
-      "position": null,
-      "question_name": "Matching Question",
-      "question_type": "matching_question",
-      "question_text": "<p>Match the term with the correct description.</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "",
-      "answers": [
-        {
-          "id": "7164",
-          "text": "Declarative Programming",
-          "left": "Declarative Programming",
-          "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 4050
-        },
-        {
-          "id": "9812",
-          "text": "Imperative Programming",
-          "left": "Imperative Programming",
-          "right": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 5642
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": [
-        {
-          "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "match_id": 4050
-        },
-        {
-          "text": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "match_id": 5642
-        },
-        {
-          "text": "I don't know.",
-          "match_id": 7708
-        }
-      ],
-      "matching_answer_incorrect_matches": "I don't know."
-    },
-    {
       "id": 296079,
       "quiz_id": 43624,
       "quiz_group_id": null,
       "assessment_question_id": 508095,
       "position": null,
-      "question_name": "Multiple Dropdowns Question",
-      "question_type": "multiple_dropdowns_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">module</span> <span class=\"nn\">Talk</span>\n  <span class=\"k\">module</span> <span class=\"nn\">Phrases</span>\n    <span class=\"k\">def</span> <span class=\"nf\">hello</span>\n      <span class=\"s2\">\"Hello!\"</span>\n    <span class=\"k\">end</span>\n\n    <span class=\"k\">def</span> <span class=\"nf\">goodbye</span>\n      <span class=\"s2\">\"Good bye!\"</span>\n    <span class=\"k\">end</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">module</span> <span class=\"nn\">Teachers</span>\n    <span class=\"k\">def</span> <span class=\"nf\">teach</span>\n      <span class=\"s2\">\"Repeat after me.\"</span>\n    <span class=\"k\">end</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>The code sample above is an example of [a1] modules. To access the <code>Teachers</code>\nmodule to include it in a class, we would type include [a2].</p>",
+      "question_name": "Field Initializers",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Homework</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">score</span> <span class=\"o\">=</span> <span class=\"mi\">100</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span> <span class=\"o\">=</span> <span class=\"mi\">88</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"h1:\"</span> <span class=\"o\">+</span> <span class=\"n\">h1</span><span class=\"o\">.</span><span class=\"na\">score</span><span class=\"o\">);</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"h2:\"</span> <span class=\"o\">+</span> <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the main method executes?</p>\n\n<p>h1:[answer1]<br>\nh2:[answer2]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Objects - Creating A Class Instance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1977,
-          "text": "namespaced",
+          "id": 2558,
+          "text": "100",
           "comments": "",
-          "comments_html": "<p>Correct! Both <code>Teachers</code> and <code>Phrases</code> are namespaced inside of <code>Talk</code>. They\ncan be accessed using <code>::</code>.</p>",
+          "comments_html": "",
           "weight": 100.0,
-          "blank_id": "a1"
+          "blank_id": "answer1"
         },
         {
-          "id": 3868,
-          "text": "subclass inherited",
+          "id": 7362,
+          "text": "88",
           "comments": "",
-          "comments_html": "<p>There aren't any classes, nor any subclass inheritance, in the syntax above.\nYou might want to review the resource/s for this question.</p>",
-          "weight": 0.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 8296,
-          "text": "I don't know",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 8259,
-          "text": "Talk::Teachers",
-          "comments": "",
-          "comments_html": "<p>Correct! To <code>include</code> the <code>Teachers</code> module, we need to access it using <code>::</code>\non the module that contains it.</p>",
+          "comments_html": "",
           "weight": 100.0,
-          "blank_id": "a2"
-        },
-        {
-          "id": 149,
-          "text": "Teachers::Talk",
-          "comments": "",
-          "comments_html": "<p>When using <code>::</code> to access a nested module, we put the module that contains the\nother module on the left side of the double colon.</p>",
-          "weight": 0.0,
-          "blank_id": "a2"
-        },
-        {
-          "id": 6197,
-          "text": "Talk.Teachers",
-          "comments": "",
-          "comments_html": "<p>Not quite. This looks more like we're trying to call a method on <code>Talk</code>.</p>",
-          "weight": 0.0,
-          "blank_id": "a2"
+          "blank_id": "answer2"
         }
       ],
       "variables": null,
@@ -400,64 +359,85 @@
       "quiz_group_id": null,
       "assessment_question_id": 508096,
       "position": null,
-      "question_name": "Multiple Choice Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logLetter</span><span class=\"p\">(</span><span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">letter</span> <span class=\"k\">of</span> <span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">letter</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+      "question_name": "Default Values",
+      "question_type": "matching_question",
+      "question_text": "<p>Match the data type with the default value.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Creating A Class Instance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 327,
-          "text": "",
-          "html": "<p>O(n)</p>",
+          "id": 9478,
+          "text": "int",
+          "left": "int",
+          "right": "0",
           "comments": "",
-          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input.</p>",
-          "weight": 100.0
+          "comments_html": "",
+          "match_id": 342
         },
         {
-          "id": 4553,
-          "text": "",
-          "html": "<p>O(1)</p>",
+          "id": 375,
+          "text": "double",
+          "left": "double",
+          "right": "0.0",
           "comments": "",
-          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 1486
         },
         {
-          "id": 1286,
-          "text": "",
-          "html": "<p>O(n²)</p>",
+          "id": 1623,
+          "text": "boolean",
+          "left": "boolean",
+          "right": "false",
           "comments": "",
-          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 8530
         },
         {
-          "id": 1414,
-          "text": "",
-          "html": "<p>O(log n)</p>",
+          "id": 6730,
+          "text": "String",
+          "left": "String",
+          "right": "null",
           "comments": "",
-          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 7502,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 2162
         }
       ],
       "variables": null,
       "formulas": null,
       "answer_tolerance": null,
       "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
+      "matches": [
+        {
+          "text": "0",
+          "match_id": 342
+        },
+        {
+          "text": "0.0",
+          "match_id": 1486
+        },
+        {
+          "text": "false",
+          "match_id": 8530
+        },
+        {
+          "text": "null",
+          "match_id": 2162
+        },
+        {
+          "text": "boolean",
+          "match_id": 3637
+        },
+        {
+          "text": "true",
+          "match_id": 9295
+        }
+      ],
+      "matching_answer_incorrect_matches": "boolean\ntrue"
     }
   ]
 }

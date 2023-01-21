@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 7,
-    "points_possible": 7.0,
+    "question_count": 10,
+    "points_possible": 10.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 20001,
     "show_correct_answers_last_attempt": true,
-    "version_number": 6,
+    "version_number": 7,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -105,7 +105,7 @@
           "right": "Defines a new data type (state and behavior).",
           "comments": "",
           "comments_html": "",
-          "match_id": 3635
+          "match_id": 8262
         },
         {
           "id": "7123",
@@ -114,7 +114,7 @@
           "right": "An instance of a class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 1348
+          "match_id": 2217
         },
         {
           "id": "3667",
@@ -123,7 +123,7 @@
           "right": "A property of an object or a class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 4075
+          "match_id": 105
         },
         {
           "id": "5874",
@@ -132,7 +132,7 @@
           "right": "Used to initialize the state of a new object by assigning values to the fields.",
           "comments": "",
           "comments_html": "",
-          "match_id": 4425
+          "match_id": 7671
         },
         {
           "id": "87",
@@ -141,7 +141,7 @@
           "right": "Implements the behavior of the class or its objects by accessing and updating state.",
           "comments": "",
           "comments_html": "",
-          "match_id": 2122
+          "match_id": 8650
         }
       ],
       "variables": null,
@@ -151,23 +151,23 @@
       "matches": [
         {
           "text": "Defines a new data type (state and behavior).",
-          "match_id": 3635
+          "match_id": 8262
         },
         {
           "text": "An instance of a class.",
-          "match_id": 1348
+          "match_id": 2217
         },
         {
           "text": "A property of an object or a class.",
-          "match_id": 4075
+          "match_id": 105
         },
         {
           "text": "Used to initialize the state of a new object by assigning values to the fields.",
-          "match_id": 4425
+          "match_id": 7671
         },
         {
           "text": "Implements the behavior of the class or its objects by accessing and updating state.",
-          "match_id": 2122
+          "match_id": 8650
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -196,7 +196,7 @@
           "right": "0",
           "comments": "",
           "comments_html": "",
-          "match_id": 9127
+          "match_id": 4186
         },
         {
           "id": "1446",
@@ -205,7 +205,7 @@
           "right": "0.0",
           "comments": "",
           "comments_html": "",
-          "match_id": 7741
+          "match_id": 2284
         },
         {
           "id": "1023",
@@ -214,7 +214,7 @@
           "right": "false",
           "comments": "",
           "comments_html": "",
-          "match_id": 5467
+          "match_id": 4725
         },
         {
           "id": "7376",
@@ -223,7 +223,7 @@
           "right": "null",
           "comments": "",
           "comments_html": "",
-          "match_id": 961
+          "match_id": 5029
         }
       ],
       "variables": null,
@@ -233,35 +233,35 @@
       "matches": [
         {
           "text": "0",
-          "match_id": 9127
+          "match_id": 4186
         },
         {
           "text": "0.0",
-          "match_id": 7741
+          "match_id": 2284
         },
         {
           "text": "false",
-          "match_id": 5467
+          "match_id": 4725
         },
         {
           "text": "null",
-          "match_id": 961
+          "match_id": 5029
         },
         {
           "text": "true",
-          "match_id": 2370
+          "match_id": 794
         },
         {
           "text": "\"null\"",
-          "match_id": 3647
+          "match_id": 8435
         },
         {
           "text": "1",
-          "match_id": 7713
+          "match_id": 6075
         },
         {
           "text": "\"I don't know\"",
-          "match_id": 8712
+          "match_id": 362
         }
       ],
       "matching_answer_incorrect_matches": "true\n\"null\"\n1\n\"I don't know\""
@@ -578,7 +578,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/creating-objects\">Creating A Class Instance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5542,
+          "id": "5542",
           "text": "Food carrot",
           "comments": "",
           "comments_html": "",
@@ -586,7 +586,7 @@
           "blank_id": "answer1"
         },
         {
-          "id": 66,
+          "id": "66",
           "text": "new Food()",
           "comments": "",
           "comments_html": "",

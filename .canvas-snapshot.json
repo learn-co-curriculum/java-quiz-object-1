@@ -105,7 +105,7 @@
           "right": "Defines a new data type (state and behavior).",
           "comments": "",
           "comments_html": "",
-          "match_id": 4133
+          "match_id": 6851
         },
         {
           "id": "7123",
@@ -114,7 +114,7 @@
           "right": "An instance of a class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 3903
+          "match_id": 953
         },
         {
           "id": "3667",
@@ -123,7 +123,7 @@
           "right": "A property of an object or a class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 6681
+          "match_id": 7656
         },
         {
           "id": "5874",
@@ -132,7 +132,7 @@
           "right": "Used to initialize the state of a new object by assigning values to the fields.",
           "comments": "",
           "comments_html": "",
-          "match_id": 924
+          "match_id": 7972
         },
         {
           "id": "87",
@@ -141,7 +141,7 @@
           "right": "Implements the behavior of the class or its objects by accessing and updating state.",
           "comments": "",
           "comments_html": "",
-          "match_id": 2449
+          "match_id": 1604
         }
       ],
       "variables": null,
@@ -151,30 +151,26 @@
       "matches": [
         {
           "text": "Defines a new data type (state and behavior).",
-          "match_id": 4133
+          "match_id": 6851
         },
         {
           "text": "An instance of a class.",
-          "match_id": 3903
+          "match_id": 953
         },
         {
           "text": "A property of an object or a class.",
-          "match_id": 6681
+          "match_id": 7656
         },
         {
           "text": "Used to initialize the state of a new object by assigning values to the fields.",
-          "match_id": 924
+          "match_id": 7972
         },
         {
           "text": "Implements the behavior of the class or its objects by accessing and updating state.",
-          "match_id": 2449
-        },
-        {
-          "text": "I don't know.",
-          "match_id": 7229
+          "match_id": 1604
         }
       ],
-      "matching_answer_incorrect_matches": "I don't know."
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 296075,
@@ -200,7 +196,7 @@
           "right": "0",
           "comments": "",
           "comments_html": "",
-          "match_id": 5939
+          "match_id": 5817
         },
         {
           "id": "1446",
@@ -209,7 +205,7 @@
           "right": "0.0",
           "comments": "",
           "comments_html": "",
-          "match_id": 1533
+          "match_id": 7751
         },
         {
           "id": "1023",
@@ -218,7 +214,7 @@
           "right": "false",
           "comments": "",
           "comments_html": "",
-          "match_id": 4445
+          "match_id": 909
         },
         {
           "id": "7376",
@@ -227,7 +223,7 @@
           "right": "null",
           "comments": "",
           "comments_html": "",
-          "match_id": 7663
+          "match_id": 4246
         }
       ],
       "variables": null,
@@ -237,35 +233,35 @@
       "matches": [
         {
           "text": "0",
-          "match_id": 5939
+          "match_id": 5817
         },
         {
           "text": "0.0",
-          "match_id": 1533
+          "match_id": 7751
         },
         {
           "text": "false",
-          "match_id": 4445
+          "match_id": 909
         },
         {
           "text": "null",
-          "match_id": 7663
+          "match_id": 4246
         },
         {
           "text": "true",
-          "match_id": 3308
+          "match_id": 52
         },
         {
           "text": "\"null\"",
-          "match_id": 539
+          "match_id": 5211
         },
         {
           "text": "1",
-          "match_id": 8736
+          "match_id": 4341
         },
         {
           "text": "\"I don't know\"",
-          "match_id": 257
+          "match_id": 9031
         }
       ],
       "matching_answer_incorrect_matches": "true\n\"null\"\n1\n\"I don't know\""
@@ -311,7 +307,7 @@
       "position": null,
       "question_name": "Default Object State",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">HistoryQuestion</span> <span class=\"o\">{</span>\n\n  <span class=\"nc\">String</span> <span class=\"n\">prompt</span><span class=\"o\">;</span>\n  <span class=\"kt\">int</span> <span class=\"n\">year</span><span class=\"o\">;</span>\n  <span class=\"kt\">boolean</span> <span class=\"n\">provideHint</span><span class=\"o\">;</span>\n\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n    <span class=\"nc\">HistoryQuestion</span> <span class=\"n\">question</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HistoryQuestion</span><span class=\"o\">();</span>\n\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"prompt:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">prompt</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"year:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">year</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"provide hint:\"</span> <span class=\"o\">+</span> <span class=\"n\">question</span><span class=\"o\">.</span><span class=\"na\">provideHint</span><span class=\"o\">);</span>\n  <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What is printed when the <code>main</code> method executes?</p>\n\n<p>prompt:[answer1]<br>\nyear:[answer2]<br>\nprovide hint:[answer3]</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">HistoryQuestion</span> <span class=\"o\">{</span>\n\n  <span class=\"nc\">String</span> <span class=\"n\">prompt</span><span class=\"o\">;</span>\n  <span class=\"kt\">int</span> <span class=\"n\">year</span><span class=\"o\">;</span>\n  <span class=\"kt\">boolean</span> <span class=\"n\">provideHint</span><span class=\"o\">;</span>\n\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n    <span class=\"nc\">HistoryQuestion</span> <span class=\"n\">question</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HistoryQuestion</span><span class=\"o\">();</span>\n  <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p>What value is stored in each field?</p>\n\n<p>question.prompt:[answer1]<br>\nquestion.year:[answer2]<br>\nquestion.provideHint:[answer3]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -392,7 +388,7 @@
       "position": null,
       "question_name": "Field Initializers",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Homework</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">score</span> <span class=\"o\">=</span> <span class=\"mi\">100</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span> <span class=\"o\">=</span> <span class=\"mi\">88</span><span class=\"o\">;</span>\n\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"h1:\"</span> <span class=\"o\">+</span> <span class=\"n\">h1</span><span class=\"o\">.</span><span class=\"na\">score</span><span class=\"o\">);</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"h2:\"</span> <span class=\"o\">+</span> <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the <code>main</code> method executes?</p>\n\n<p>h1:[answer1]<br>\nh2:[answer2]</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Homework</span> <span class=\"o\">{</span>\n\n    <span class=\"kt\">int</span> <span class=\"n\">score</span> <span class=\"o\">=</span> <span class=\"mi\">100</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"nc\">Homework</span> <span class=\"n\">h2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Homework</span><span class=\"o\">();</span>\n        <span class=\"n\">h2</span><span class=\"o\">.</span><span class=\"na\">score</span> <span class=\"o\">=</span> <span class=\"mi\">88</span><span class=\"o\">;</span>\n    <span class=\"o\">}</span>\n\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What value is stored in each field?</p>\n\n<p>h1.score:[answer1]<br>\nh2.score:[answer2]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -476,11 +472,11 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/printing-object-state\">Printing Object State</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3072,
+          "id": 630,
           "text": "",
-          "html": "<p>The string containing the object's memory location that looks something like <code>Car@4617c264</code>.</p>",
+          "html": "<p>A string containing the object's memory location that looks something like <code>Car@4617c264</code>.</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Since the class does not override the <code>toString()</code> method, the default\nimplementation prints the memory address.</p>",
+          "comments_html": "<p>Correct! Since <code>Car</code> does not override the <code>toString()</code> method, the default\nimplementation prints the memory address.</p>",
           "weight": 100.0
         },
         {
@@ -488,15 +484,7 @@
           "text": "",
           "html": "<p>Car{make='Mazda', color='white'}</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  The <code>Car</code> class does not override the <code>toString()</code> method, so the default\nimplementation prints a string containing the memory address.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 6842,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Review the lesson <a href=\"/courses/6676/pages/printing-object-state\">Printing Object State</a></p>",
+          "comments_html": "<p>Incorrect.  <code>Car</code> does not override the <code>toString()</code> method, so the default\nimplementation prints a string containing the memory address.</p>",
           "weight": 0.0
         }
       ],
@@ -533,11 +521,11 @@
           "weight": 100.0
         },
         {
-          "id": 3008,
+          "id": 2381,
           "text": "",
-          "html": "<p>The string containing the object's memory location that looks something like <code>Car@4617c264</code>.</p>",
+          "html": "<p>A string containing the object's memory location that looks something like <code>Car@4617c264</code>.</p>",
           "comments": "",
-          "comments_html": "<p>The class overrides the <code>toString()</code> method, so the print statement automatically calls the <code>toString()</code> method to get\na string representation of the object referenced by <code>yourCar</code>.</p>",
+          "comments_html": "<p><code>Car</code> overrides the <code>toString()</code> method, so the print statement automatically calls the <code>toString()</code> method to get\na string representation of the object referenced by <code>yourCar</code>.</p>",
           "weight": 0.0
         },
         {
@@ -546,14 +534,6 @@
           "html": "<p>Car{make='Mazda', color='white'}</p>",
           "comments": "",
           "comments_html": "<p>Incorrect.  The print statement automatically calls the <code>toString()</code>\nmethod with the object referenced by <code>yourCar</code>, not <code>myCar</code>.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 5597,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Review the lesson <a href=\"/courses/6676/pages/printing-object-state\">Printing Object State</a></p>",
           "weight": 0.0
         }
       ],
@@ -572,7 +552,7 @@
       "position": null,
       "question_name": "Creating a class instance",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Food</span> <span class=\"o\">{</span>\n    <span class=\"nc\">String</span> <span class=\"n\">name</span><span class=\"o\">;</span>\n    <span class=\"kt\">boolean</span> <span class=\"n\">isVeggy</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"o\">???</span> <span class=\"o\">;</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q09.png\" alt=\"q9 visualizer image\"></p>\n\n<p>What is the line of code to create an instance of the <code>Food</code> class\nand assign it to the local variable named <code>carrot</code>?</p>\n\n<p>[answer1] = [answer2] ;</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Food</span> <span class=\"o\">{</span>\n    <span class=\"nc\">String</span> <span class=\"n\">name</span><span class=\"o\">;</span>\n    <span class=\"kt\">boolean</span> <span class=\"n\">isVeggy</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"o\">???</span> <span class=\"o\">=</span> <span class=\"o\">???</span> <span class=\"o\">;</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n</code></pre></div>\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/q09.png\" alt=\"q9 visualizer image\"></p>\n\n<p>Write an assignment statement to declare a local variable named <code>carrot</code> and\nassign it to a new <code>Food</code> instance:</p>\n\n<p>[answer1] = [answer2] ;</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
